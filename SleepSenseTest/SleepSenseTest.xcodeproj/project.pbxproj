@@ -1,0 +1,1043 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4453D2D28D64D5D00DB6EE4 /* SleepSenseTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4453D2C28D64D5D00DB6EE4 /* SleepSenseTestApp.swift */; };
+		B4453D2F28D64D5D00DB6EE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4453D2E28D64D5D00DB6EE4 /* ContentView.swift */; };
+		B4453D3128D64D5E00DB6EE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4453D3028D64D5E00DB6EE4 /* Assets.xcassets */; };
+		B4453D3428D64D5E00DB6EE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4453D3328D64D5E00DB6EE4 /* Preview Assets.xcassets */; };
+		B4453D3E28D64D5E00DB6EE4 /* SleepSenseTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4453D3D28D64D5E00DB6EE4 /* SleepSenseTestTests.swift */; };
+		B4453D4828D64D5E00DB6EE4 /* SleepSenseTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4453D4728D64D5E00DB6EE4 /* SleepSenseTestUITests.swift */; };
+		B4453D4A28D64D5E00DB6EE4 /* SleepSenseTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4453D4928D64D5E00DB6EE4 /* SleepSenseTestUITestsLaunchTests.swift */; };
+		B4453D5028D64D5E00DB6EE4 /* SleepSenseTest Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B4453D4F28D64D5E00DB6EE4 /* SleepSenseTest Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B4453D5528D64D5E00DB6EE4 /* SleepSenseTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4453D5428D64D5E00DB6EE4 /* SleepSenseTestApp.swift */; };
+		B4453D5728D64D5E00DB6EE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4453D5628D64D5E00DB6EE4 /* ContentView.swift */; };
+		B4453D5928D64D5F00DB6EE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4453D5828D64D5F00DB6EE4 /* Assets.xcassets */; };
+		B4453D5C28D64D5F00DB6EE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4453D5B28D64D5F00DB6EE4 /* Preview Assets.xcassets */; };
+		B4453D6628D64D5F00DB6EE4 /* SleepSenseTest_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4453D6528D64D5F00DB6EE4 /* SleepSenseTest_Watch_AppTests.swift */; };
+		B4453D7028D64D5F00DB6EE4 /* SleepSenseTest_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4453D6F28D64D5F00DB6EE4 /* SleepSenseTest_Watch_AppUITests.swift */; };
+		B4453D7228D64D5F00DB6EE4 /* SleepSenseTest_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4453D7128D64D5F00DB6EE4 /* SleepSenseTest_Watch_AppUITestsLaunchTests.swift */; };
+		B4EE005928D7036B00A2079B /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EE005828D7036B00A2079B /* Parser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4453D3A28D64D5E00DB6EE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4453D2128D64D5D00DB6EE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4453D2828D64D5D00DB6EE4;
+			remoteInfo = SleepSenseTest;
+		};
+		B4453D4428D64D5E00DB6EE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4453D2128D64D5D00DB6EE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4453D2828D64D5D00DB6EE4;
+			remoteInfo = SleepSenseTest;
+		};
+		B4453D5128D64D5E00DB6EE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4453D2128D64D5D00DB6EE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4453D4E28D64D5E00DB6EE4;
+			remoteInfo = "SleepSenseTest Watch App";
+		};
+		B4453D6228D64D5F00DB6EE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4453D2128D64D5D00DB6EE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4453D4E28D64D5E00DB6EE4;
+			remoteInfo = "SleepSenseTest Watch App";
+		};
+		B4453D6C28D64D5F00DB6EE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4453D2128D64D5D00DB6EE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4453D4E28D64D5E00DB6EE4;
+			remoteInfo = "SleepSenseTest Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B4453D7828D64D5F00DB6EE4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B4453D5028D64D5E00DB6EE4 /* SleepSenseTest Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B4453D2928D64D5D00DB6EE4 /* SleepSenseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepSenseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4453D2C28D64D5D00DB6EE4 /* SleepSenseTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepSenseTestApp.swift; sourceTree = "<group>"; };
+		B4453D2E28D64D5D00DB6EE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B4453D3028D64D5E00DB6EE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4453D3328D64D5E00DB6EE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4453D3928D64D5E00DB6EE4 /* SleepSenseTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepSenseTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4453D3D28D64D5E00DB6EE4 /* SleepSenseTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepSenseTestTests.swift; sourceTree = "<group>"; };
+		B4453D4328D64D5E00DB6EE4 /* SleepSenseTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepSenseTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4453D4728D64D5E00DB6EE4 /* SleepSenseTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepSenseTestUITests.swift; sourceTree = "<group>"; };
+		B4453D4928D64D5E00DB6EE4 /* SleepSenseTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepSenseTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4453D4F28D64D5E00DB6EE4 /* SleepSenseTest Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SleepSenseTest Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4453D5428D64D5E00DB6EE4 /* SleepSenseTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepSenseTestApp.swift; sourceTree = "<group>"; };
+		B4453D5628D64D5E00DB6EE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B4453D5828D64D5F00DB6EE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4453D5B28D64D5F00DB6EE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4453D6128D64D5F00DB6EE4 /* SleepSenseTest Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SleepSenseTest Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4453D6528D64D5F00DB6EE4 /* SleepSenseTest_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepSenseTest_Watch_AppTests.swift; sourceTree = "<group>"; };
+		B4453D6B28D64D5F00DB6EE4 /* SleepSenseTest Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SleepSenseTest Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4453D6F28D64D5F00DB6EE4 /* SleepSenseTest_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepSenseTest_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		B4453D7128D64D5F00DB6EE4 /* SleepSenseTest_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepSenseTest_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4453D8828D64FDE00DB6EE4 /* SleepSenseTestDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SleepSenseTestDebug.entitlements; sourceTree = "<group>"; };
+		B46912FF28D66ABF000D14D2 /* SleepSenseTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SleepSenseTest.entitlements; sourceTree = "<group>"; };
+		B469130028D66AD0000D14D2 /* SleepSenseTest Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SleepSenseTest Watch App.entitlements"; sourceTree = "<group>"; };
+		B49AA6C628D652500011CA4C /* SleepSenseTest Watch AppDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SleepSenseTest Watch AppDebug.entitlements"; sourceTree = "<group>"; };
+		B4C404CC28D66F72009ECB53 /* SleepSenseTest-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SleepSenseTest-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B4EE005828D7036B00A2079B /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4453D2628D64D5D00DB6EE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4453D3628D64D5E00DB6EE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4453D4028D64D5E00DB6EE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4453D4C28D64D5E00DB6EE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4453D5E28D64D5F00DB6EE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4453D6828D64D5F00DB6EE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4453D2028D64D5D00DB6EE4 = {
+			isa = PBXGroup;
+			children = (
+				B4453D2B28D64D5D00DB6EE4 /* SleepSenseTest */,
+				B4453D3C28D64D5E00DB6EE4 /* SleepSenseTestTests */,
+				B4453D4628D64D5E00DB6EE4 /* SleepSenseTestUITests */,
+				B4453D5328D64D5E00DB6EE4 /* SleepSenseTest Watch App */,
+				B4453D6428D64D5F00DB6EE4 /* SleepSenseTest Watch AppTests */,
+				B4453D6E28D64D5F00DB6EE4 /* SleepSenseTest Watch AppUITests */,
+				B4453D2A28D64D5D00DB6EE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4453D2A28D64D5D00DB6EE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4453D2928D64D5D00DB6EE4 /* SleepSenseTest.app */,
+				B4453D3928D64D5E00DB6EE4 /* SleepSenseTestTests.xctest */,
+				B4453D4328D64D5E00DB6EE4 /* SleepSenseTestUITests.xctest */,
+				B4453D4F28D64D5E00DB6EE4 /* SleepSenseTest Watch App.app */,
+				B4453D6128D64D5F00DB6EE4 /* SleepSenseTest Watch AppTests.xctest */,
+				B4453D6B28D64D5F00DB6EE4 /* SleepSenseTest Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4453D2B28D64D5D00DB6EE4 /* SleepSenseTest */ = {
+			isa = PBXGroup;
+			children = (
+				B46912FF28D66ABF000D14D2 /* SleepSenseTest.entitlements */,
+				B4453D8828D64FDE00DB6EE4 /* SleepSenseTestDebug.entitlements */,
+				B4453D2C28D64D5D00DB6EE4 /* SleepSenseTestApp.swift */,
+				B4453D2E28D64D5D00DB6EE4 /* ContentView.swift */,
+				B4EE005828D7036B00A2079B /* Parser.swift */,
+				B4453D3028D64D5E00DB6EE4 /* Assets.xcassets */,
+				B4453D3228D64D5E00DB6EE4 /* Preview Content */,
+			);
+			path = SleepSenseTest;
+			sourceTree = "<group>";
+		};
+		B4453D3228D64D5E00DB6EE4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B4453D3328D64D5E00DB6EE4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4453D3C28D64D5E00DB6EE4 /* SleepSenseTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4453D3D28D64D5E00DB6EE4 /* SleepSenseTestTests.swift */,
+			);
+			path = SleepSenseTestTests;
+			sourceTree = "<group>";
+		};
+		B4453D4628D64D5E00DB6EE4 /* SleepSenseTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4453D4728D64D5E00DB6EE4 /* SleepSenseTestUITests.swift */,
+				B4453D4928D64D5E00DB6EE4 /* SleepSenseTestUITestsLaunchTests.swift */,
+			);
+			path = SleepSenseTestUITests;
+			sourceTree = "<group>";
+		};
+		B4453D5328D64D5E00DB6EE4 /* SleepSenseTest Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				B4C404CC28D66F72009ECB53 /* SleepSenseTest-Watch-App-Info.plist */,
+				B469130028D66AD0000D14D2 /* SleepSenseTest Watch App.entitlements */,
+				B49AA6C628D652500011CA4C /* SleepSenseTest Watch AppDebug.entitlements */,
+				B4453D5428D64D5E00DB6EE4 /* SleepSenseTestApp.swift */,
+				B4453D5628D64D5E00DB6EE4 /* ContentView.swift */,
+				B4453D5828D64D5F00DB6EE4 /* Assets.xcassets */,
+				B4453D5A28D64D5F00DB6EE4 /* Preview Content */,
+			);
+			path = "SleepSenseTest Watch App";
+			sourceTree = "<group>";
+		};
+		B4453D5A28D64D5F00DB6EE4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B4453D5B28D64D5F00DB6EE4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4453D6428D64D5F00DB6EE4 /* SleepSenseTest Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4453D6528D64D5F00DB6EE4 /* SleepSenseTest_Watch_AppTests.swift */,
+			);
+			path = "SleepSenseTest Watch AppTests";
+			sourceTree = "<group>";
+		};
+		B4453D6E28D64D5F00DB6EE4 /* SleepSenseTest Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4453D6F28D64D5F00DB6EE4 /* SleepSenseTest_Watch_AppUITests.swift */,
+				B4453D7128D64D5F00DB6EE4 /* SleepSenseTest_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "SleepSenseTest Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4453D2828D64D5D00DB6EE4 /* SleepSenseTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4453D7928D64D5F00DB6EE4 /* Build configuration list for PBXNativeTarget "SleepSenseTest" */;
+			buildPhases = (
+				B4453D2528D64D5D00DB6EE4 /* Sources */,
+				B4453D2628D64D5D00DB6EE4 /* Frameworks */,
+				B4453D2728D64D5D00DB6EE4 /* Resources */,
+				B4453D7828D64D5F00DB6EE4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4453D5228D64D5E00DB6EE4 /* PBXTargetDependency */,
+			);
+			name = SleepSenseTest;
+			productName = SleepSenseTest;
+			productReference = B4453D2928D64D5D00DB6EE4 /* SleepSenseTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4453D3828D64D5E00DB6EE4 /* SleepSenseTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4453D7C28D64D5F00DB6EE4 /* Build configuration list for PBXNativeTarget "SleepSenseTestTests" */;
+			buildPhases = (
+				B4453D3528D64D5E00DB6EE4 /* Sources */,
+				B4453D3628D64D5E00DB6EE4 /* Frameworks */,
+				B4453D3728D64D5E00DB6EE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4453D3B28D64D5E00DB6EE4 /* PBXTargetDependency */,
+			);
+			name = SleepSenseTestTests;
+			productName = SleepSenseTestTests;
+			productReference = B4453D3928D64D5E00DB6EE4 /* SleepSenseTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4453D4228D64D5E00DB6EE4 /* SleepSenseTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4453D7F28D64D5F00DB6EE4 /* Build configuration list for PBXNativeTarget "SleepSenseTestUITests" */;
+			buildPhases = (
+				B4453D3F28D64D5E00DB6EE4 /* Sources */,
+				B4453D4028D64D5E00DB6EE4 /* Frameworks */,
+				B4453D4128D64D5E00DB6EE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4453D4528D64D5E00DB6EE4 /* PBXTargetDependency */,
+			);
+			name = SleepSenseTestUITests;
+			productName = SleepSenseTestUITests;
+			productReference = B4453D4328D64D5E00DB6EE4 /* SleepSenseTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B4453D4E28D64D5E00DB6EE4 /* SleepSenseTest Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4453D7528D64D5F00DB6EE4 /* Build configuration list for PBXNativeTarget "SleepSenseTest Watch App" */;
+			buildPhases = (
+				B4453D4B28D64D5E00DB6EE4 /* Sources */,
+				B4453D4C28D64D5E00DB6EE4 /* Frameworks */,
+				B4453D4D28D64D5E00DB6EE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SleepSenseTest Watch App";
+			productName = "SleepSenseTest Watch App";
+			productReference = B4453D4F28D64D5E00DB6EE4 /* SleepSenseTest Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4453D6028D64D5F00DB6EE4 /* SleepSenseTest Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4453D8228D64D5F00DB6EE4 /* Build configuration list for PBXNativeTarget "SleepSenseTest Watch AppTests" */;
+			buildPhases = (
+				B4453D5D28D64D5F00DB6EE4 /* Sources */,
+				B4453D5E28D64D5F00DB6EE4 /* Frameworks */,
+				B4453D5F28D64D5F00DB6EE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4453D6328D64D5F00DB6EE4 /* PBXTargetDependency */,
+			);
+			name = "SleepSenseTest Watch AppTests";
+			productName = "SleepSenseTest Watch AppTests";
+			productReference = B4453D6128D64D5F00DB6EE4 /* SleepSenseTest Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4453D6A28D64D5F00DB6EE4 /* SleepSenseTest Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4453D8528D64D5F00DB6EE4 /* Build configuration list for PBXNativeTarget "SleepSenseTest Watch AppUITests" */;
+			buildPhases = (
+				B4453D6728D64D5F00DB6EE4 /* Sources */,
+				B4453D6828D64D5F00DB6EE4 /* Frameworks */,
+				B4453D6928D64D5F00DB6EE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4453D6D28D64D5F00DB6EE4 /* PBXTargetDependency */,
+			);
+			name = "SleepSenseTest Watch AppUITests";
+			productName = "SleepSenseTest Watch AppUITests";
+			productReference = B4453D6B28D64D5F00DB6EE4 /* SleepSenseTest Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4453D2128D64D5D00DB6EE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					B4453D2828D64D5D00DB6EE4 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					B4453D3828D64D5E00DB6EE4 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = B4453D2828D64D5D00DB6EE4;
+					};
+					B4453D4228D64D5E00DB6EE4 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = B4453D2828D64D5D00DB6EE4;
+					};
+					B4453D4E28D64D5E00DB6EE4 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					B4453D6028D64D5F00DB6EE4 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = B4453D4E28D64D5E00DB6EE4;
+					};
+					B4453D6A28D64D5F00DB6EE4 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = B4453D4E28D64D5E00DB6EE4;
+					};
+				};
+			};
+			buildConfigurationList = B4453D2428D64D5D00DB6EE4 /* Build configuration list for PBXProject "SleepSenseTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4453D2028D64D5D00DB6EE4;
+			productRefGroup = B4453D2A28D64D5D00DB6EE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4453D2828D64D5D00DB6EE4 /* SleepSenseTest */,
+				B4453D3828D64D5E00DB6EE4 /* SleepSenseTestTests */,
+				B4453D4228D64D5E00DB6EE4 /* SleepSenseTestUITests */,
+				B4453D4E28D64D5E00DB6EE4 /* SleepSenseTest Watch App */,
+				B4453D6028D64D5F00DB6EE4 /* SleepSenseTest Watch AppTests */,
+				B4453D6A28D64D5F00DB6EE4 /* SleepSenseTest Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4453D2728D64D5D00DB6EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4453D3428D64D5E00DB6EE4 /* Preview Assets.xcassets in Resources */,
+				B4453D3128D64D5E00DB6EE4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4453D3728D64D5E00DB6EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4453D4128D64D5E00DB6EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4453D4D28D64D5E00DB6EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4453D5C28D64D5F00DB6EE4 /* Preview Assets.xcassets in Resources */,
+				B4453D5928D64D5F00DB6EE4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4453D5F28D64D5F00DB6EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4453D6928D64D5F00DB6EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4453D2528D64D5D00DB6EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4453D2F28D64D5D00DB6EE4 /* ContentView.swift in Sources */,
+				B4453D2D28D64D5D00DB6EE4 /* SleepSenseTestApp.swift in Sources */,
+				B4EE005928D7036B00A2079B /* Parser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4453D3528D64D5E00DB6EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4453D3E28D64D5E00DB6EE4 /* SleepSenseTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4453D3F28D64D5E00DB6EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4453D4828D64D5E00DB6EE4 /* SleepSenseTestUITests.swift in Sources */,
+				B4453D4A28D64D5E00DB6EE4 /* SleepSenseTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4453D4B28D64D5E00DB6EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4453D5728D64D5E00DB6EE4 /* ContentView.swift in Sources */,
+				B4453D5528D64D5E00DB6EE4 /* SleepSenseTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4453D5D28D64D5F00DB6EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4453D6628D64D5F00DB6EE4 /* SleepSenseTest_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4453D6728D64D5F00DB6EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4453D7028D64D5F00DB6EE4 /* SleepSenseTest_Watch_AppUITests.swift in Sources */,
+				B4453D7228D64D5F00DB6EE4 /* SleepSenseTest_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4453D3B28D64D5E00DB6EE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4453D2828D64D5D00DB6EE4 /* SleepSenseTest */;
+			targetProxy = B4453D3A28D64D5E00DB6EE4 /* PBXContainerItemProxy */;
+		};
+		B4453D4528D64D5E00DB6EE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4453D2828D64D5D00DB6EE4 /* SleepSenseTest */;
+			targetProxy = B4453D4428D64D5E00DB6EE4 /* PBXContainerItemProxy */;
+		};
+		B4453D5228D64D5E00DB6EE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4453D4E28D64D5E00DB6EE4 /* SleepSenseTest Watch App */;
+			targetProxy = B4453D5128D64D5E00DB6EE4 /* PBXContainerItemProxy */;
+		};
+		B4453D6328D64D5F00DB6EE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4453D4E28D64D5E00DB6EE4 /* SleepSenseTest Watch App */;
+			targetProxy = B4453D6228D64D5F00DB6EE4 /* PBXContainerItemProxy */;
+		};
+		B4453D6D28D64D5F00DB6EE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4453D4E28D64D5E00DB6EE4 /* SleepSenseTest Watch App */;
+			targetProxy = B4453D6C28D64D5F00DB6EE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B4453D7328D64D5F00DB6EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4453D7428D64D5F00DB6EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B4453D7628D64D5F00DB6EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SleepSenseTest Watch App/SleepSenseTest Watch AppDebug.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepSenseTest Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 99TC7HVWTN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SleepSenseTest-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SleepSenseTest;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = SleepSense.SleepSenseTest;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SleepSense.SleepSenseTest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.4;
+			};
+			name = Debug;
+		};
+		B4453D7728D64D5F00DB6EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SleepSenseTest Watch App/SleepSenseTest Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepSenseTest Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 99TC7HVWTN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SleepSenseTest-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SleepSenseTest;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = SleepSense.SleepSenseTest;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SleepSense.SleepSenseTest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.4;
+			};
+			name = Release;
+		};
+		B4453D7A28D64D5F00DB6EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SleepSenseTest/SleepSenseTestDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepSenseTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 99TC7HVWTN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SleepSenseTest;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SleepSense.SleepSenseTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4453D7B28D64D5F00DB6EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SleepSenseTest/SleepSenseTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepSenseTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 99TC7HVWTN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SleepSenseTest;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SleepSense.SleepSenseTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4453D7D28D64D5F00DB6EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99TC7HVWTN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SleepSense.SleepSenseTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepSenseTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SleepSenseTest";
+			};
+			name = Debug;
+		};
+		B4453D7E28D64D5F00DB6EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99TC7HVWTN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SleepSense.SleepSenseTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepSenseTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SleepSenseTest";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4453D8028D64D5F00DB6EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99TC7HVWTN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SleepSense.SleepSenseTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SleepSenseTest;
+			};
+			name = Debug;
+		};
+		B4453D8128D64D5F00DB6EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99TC7HVWTN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SleepSense.SleepSenseTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SleepSenseTest;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4453D8328D64D5F00DB6EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99TC7HVWTN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SleepSense.SleepSenseTest-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepSenseTest Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SleepSenseTest Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.4;
+			};
+			name = Debug;
+		};
+		B4453D8428D64D5F00DB6EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99TC7HVWTN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SleepSense.SleepSenseTest-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepSenseTest Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SleepSenseTest Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.4;
+			};
+			name = Release;
+		};
+		B4453D8628D64D5F00DB6EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99TC7HVWTN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SleepSense.SleepSenseTest-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SleepSenseTest Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.4;
+			};
+			name = Debug;
+		};
+		B4453D8728D64D5F00DB6EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99TC7HVWTN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SleepSense.SleepSenseTest-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SleepSenseTest Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4453D2428D64D5D00DB6EE4 /* Build configuration list for PBXProject "SleepSenseTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4453D7328D64D5F00DB6EE4 /* Debug */,
+				B4453D7428D64D5F00DB6EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4453D7528D64D5F00DB6EE4 /* Build configuration list for PBXNativeTarget "SleepSenseTest Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4453D7628D64D5F00DB6EE4 /* Debug */,
+				B4453D7728D64D5F00DB6EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4453D7928D64D5F00DB6EE4 /* Build configuration list for PBXNativeTarget "SleepSenseTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4453D7A28D64D5F00DB6EE4 /* Debug */,
+				B4453D7B28D64D5F00DB6EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4453D7C28D64D5F00DB6EE4 /* Build configuration list for PBXNativeTarget "SleepSenseTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4453D7D28D64D5F00DB6EE4 /* Debug */,
+				B4453D7E28D64D5F00DB6EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4453D7F28D64D5F00DB6EE4 /* Build configuration list for PBXNativeTarget "SleepSenseTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4453D8028D64D5F00DB6EE4 /* Debug */,
+				B4453D8128D64D5F00DB6EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4453D8228D64D5F00DB6EE4 /* Build configuration list for PBXNativeTarget "SleepSenseTest Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4453D8328D64D5F00DB6EE4 /* Debug */,
+				B4453D8428D64D5F00DB6EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4453D8528D64D5F00DB6EE4 /* Build configuration list for PBXNativeTarget "SleepSenseTest Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4453D8628D64D5F00DB6EE4 /* Debug */,
+				B4453D8728D64D5F00DB6EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4453D2128D64D5D00DB6EE4 /* Project object */;
+}
