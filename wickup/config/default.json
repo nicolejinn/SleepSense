@@ -1,0 +1,37 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "../public/",
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "authentication": {
+    "entity": "user",
+    "service": "users",
+    "secret": "BGvbdOCTPfrZu1OKj4kTpRsahNI=",
+    "authStrategies": [
+      "jwt",
+      "local",
+      "apiKey"
+    ],
+    "apiKey": {
+      "allowedKeys": [ "A62207BE-421F-45D3-BC93-713A86FCF5C3" ],
+      "header": "x-access-token"
+    },
+    "jwtOptions": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "https://yourdomain.com",
+      "issuer": "feathers",
+      "algorithm": "HS256",
+      "expiresIn": "1d"
+    },
+    "local": {
+      "usernameField": "email",
+      "passwordField": "password"
+    }
+  },
+  "sqlite": "sqlite://wickup.sqlite"
+}
