@@ -1,0 +1,1045 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05DCCD2B28D5878E008CF1D5 /* CandleLightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DCCD2A28D5878E008CF1D5 /* CandleLightApp.swift */; };
+		05DCCD2D28D5878E008CF1D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DCCD2C28D5878E008CF1D5 /* ContentView.swift */; };
+		05DCCD2F28D5878E008CF1D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DCCD2E28D5878E008CF1D5 /* Assets.xcassets */; };
+		05DCCD3228D5878E008CF1D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DCCD3128D5878E008CF1D5 /* Preview Assets.xcassets */; };
+		05DCCD3C28D5878F008CF1D5 /* CandleLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DCCD3B28D5878F008CF1D5 /* CandleLightTests.swift */; };
+		05DCCD4628D5878F008CF1D5 /* CandleLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DCCD4528D5878F008CF1D5 /* CandleLightUITests.swift */; };
+		05DCCD4828D5878F008CF1D5 /* CandleLightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DCCD4728D5878F008CF1D5 /* CandleLightUITestsLaunchTests.swift */; };
+		05DCCD4E28D5878F008CF1D5 /* CandleLight Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 05DCCD4D28D5878F008CF1D5 /* CandleLight Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		05DCCD5328D5878F008CF1D5 /* CandleLightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DCCD5228D5878F008CF1D5 /* CandleLightApp.swift */; };
+		05DCCD5528D5878F008CF1D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DCCD5428D5878F008CF1D5 /* ContentView.swift */; };
+		05DCCD5728D5878F008CF1D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DCCD5628D5878F008CF1D5 /* Assets.xcassets */; };
+		05DCCD5A28D5878F008CF1D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DCCD5928D5878F008CF1D5 /* Preview Assets.xcassets */; };
+		05DCCD6428D5878F008CF1D5 /* CandleLight_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DCCD6328D5878F008CF1D5 /* CandleLight_Watch_AppTests.swift */; };
+		05DCCD6E28D5878F008CF1D5 /* CandleLight_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DCCD6D28D5878F008CF1D5 /* CandleLight_Watch_AppUITests.swift */; };
+		05DCCD7028D5878F008CF1D5 /* CandleLight_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DCCD6F28D5878F008CF1D5 /* CandleLight_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05DCCD3828D5878F008CF1D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05DCCD1F28D5878E008CF1D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05DCCD2628D5878E008CF1D5;
+			remoteInfo = CandleLight;
+		};
+		05DCCD4228D5878F008CF1D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05DCCD1F28D5878E008CF1D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05DCCD2628D5878E008CF1D5;
+			remoteInfo = CandleLight;
+		};
+		05DCCD4F28D5878F008CF1D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05DCCD1F28D5878E008CF1D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05DCCD4C28D5878F008CF1D5;
+			remoteInfo = "CandleLight Watch App";
+		};
+		05DCCD6028D5878F008CF1D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05DCCD1F28D5878E008CF1D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05DCCD4C28D5878F008CF1D5;
+			remoteInfo = "CandleLight Watch App";
+		};
+		05DCCD6A28D5878F008CF1D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05DCCD1F28D5878E008CF1D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05DCCD4C28D5878F008CF1D5;
+			remoteInfo = "CandleLight Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05DCCD7628D5878F008CF1D5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				05DCCD4E28D5878F008CF1D5 /* CandleLight Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0554A76C28D6CC9E005BA98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0554A76D28D6CD3E005BA98A /* CandleLight-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "CandleLight-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		05D7446028D668D3007F69FA /* CandleLight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CandleLight.entitlements; sourceTree = "<group>"; };
+		05D7446128D668E0007F69FA /* CandleLight Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CandleLight Watch App.entitlements"; sourceTree = "<group>"; };
+		05DCCD2728D5878E008CF1D5 /* CandleLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandleLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DCCD2A28D5878E008CF1D5 /* CandleLightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleLightApp.swift; sourceTree = "<group>"; };
+		05DCCD2C28D5878E008CF1D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05DCCD2E28D5878E008CF1D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05DCCD3128D5878E008CF1D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05DCCD3728D5878F008CF1D5 /* CandleLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandleLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DCCD3B28D5878F008CF1D5 /* CandleLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleLightTests.swift; sourceTree = "<group>"; };
+		05DCCD4128D5878F008CF1D5 /* CandleLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandleLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DCCD4528D5878F008CF1D5 /* CandleLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleLightUITests.swift; sourceTree = "<group>"; };
+		05DCCD4728D5878F008CF1D5 /* CandleLightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleLightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05DCCD4D28D5878F008CF1D5 /* CandleLight Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CandleLight Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DCCD5228D5878F008CF1D5 /* CandleLightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleLightApp.swift; sourceTree = "<group>"; };
+		05DCCD5428D5878F008CF1D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05DCCD5628D5878F008CF1D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05DCCD5928D5878F008CF1D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05DCCD5F28D5878F008CF1D5 /* CandleLight Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CandleLight Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DCCD6328D5878F008CF1D5 /* CandleLight_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleLight_Watch_AppTests.swift; sourceTree = "<group>"; };
+		05DCCD6928D5878F008CF1D5 /* CandleLight Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CandleLight Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DCCD6D28D5878F008CF1D5 /* CandleLight_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleLight_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		05DCCD6F28D5878F008CF1D5 /* CandleLight_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleLight_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05DCCD2428D5878E008CF1D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DCCD3428D5878F008CF1D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DCCD3E28D5878F008CF1D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DCCD4A28D5878F008CF1D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DCCD5C28D5878F008CF1D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DCCD6628D5878F008CF1D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05DCCD1E28D5878E008CF1D5 = {
+			isa = PBXGroup;
+			children = (
+				05DCCD2928D5878E008CF1D5 /* CandleLight */,
+				05DCCD3A28D5878F008CF1D5 /* CandleLightTests */,
+				05DCCD4428D5878F008CF1D5 /* CandleLightUITests */,
+				05DCCD5128D5878F008CF1D5 /* CandleLight Watch App */,
+				05DCCD6228D5878F008CF1D5 /* CandleLight Watch AppTests */,
+				05DCCD6C28D5878F008CF1D5 /* CandleLight Watch AppUITests */,
+				05DCCD2828D5878E008CF1D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05DCCD2828D5878E008CF1D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05DCCD2728D5878E008CF1D5 /* CandleLight.app */,
+				05DCCD3728D5878F008CF1D5 /* CandleLightTests.xctest */,
+				05DCCD4128D5878F008CF1D5 /* CandleLightUITests.xctest */,
+				05DCCD4D28D5878F008CF1D5 /* CandleLight Watch App.app */,
+				05DCCD5F28D5878F008CF1D5 /* CandleLight Watch AppTests.xctest */,
+				05DCCD6928D5878F008CF1D5 /* CandleLight Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05DCCD2928D5878E008CF1D5 /* CandleLight */ = {
+			isa = PBXGroup;
+			children = (
+				0554A76C28D6CC9E005BA98A /* Info.plist */,
+				05D7446028D668D3007F69FA /* CandleLight.entitlements */,
+				05DCCD2A28D5878E008CF1D5 /* CandleLightApp.swift */,
+				05DCCD2C28D5878E008CF1D5 /* ContentView.swift */,
+				05DCCD2E28D5878E008CF1D5 /* Assets.xcassets */,
+				05DCCD3028D5878E008CF1D5 /* Preview Content */,
+			);
+			path = CandleLight;
+			sourceTree = "<group>";
+		};
+		05DCCD3028D5878E008CF1D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05DCCD3128D5878E008CF1D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05DCCD3A28D5878F008CF1D5 /* CandleLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				05DCCD3B28D5878F008CF1D5 /* CandleLightTests.swift */,
+			);
+			path = CandleLightTests;
+			sourceTree = "<group>";
+		};
+		05DCCD4428D5878F008CF1D5 /* CandleLightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05DCCD4528D5878F008CF1D5 /* CandleLightUITests.swift */,
+				05DCCD4728D5878F008CF1D5 /* CandleLightUITestsLaunchTests.swift */,
+			);
+			path = CandleLightUITests;
+			sourceTree = "<group>";
+		};
+		05DCCD5128D5878F008CF1D5 /* CandleLight Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				0554A76D28D6CD3E005BA98A /* CandleLight-Watch-App-Info.plist */,
+				05D7446128D668E0007F69FA /* CandleLight Watch App.entitlements */,
+				05DCCD5228D5878F008CF1D5 /* CandleLightApp.swift */,
+				05DCCD5428D5878F008CF1D5 /* ContentView.swift */,
+				05DCCD5628D5878F008CF1D5 /* Assets.xcassets */,
+				05DCCD5828D5878F008CF1D5 /* Preview Content */,
+			);
+			path = "CandleLight Watch App";
+			sourceTree = "<group>";
+		};
+		05DCCD5828D5878F008CF1D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05DCCD5928D5878F008CF1D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05DCCD6228D5878F008CF1D5 /* CandleLight Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				05DCCD6328D5878F008CF1D5 /* CandleLight_Watch_AppTests.swift */,
+			);
+			path = "CandleLight Watch AppTests";
+			sourceTree = "<group>";
+		};
+		05DCCD6C28D5878F008CF1D5 /* CandleLight Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05DCCD6D28D5878F008CF1D5 /* CandleLight_Watch_AppUITests.swift */,
+				05DCCD6F28D5878F008CF1D5 /* CandleLight_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "CandleLight Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05DCCD2628D5878E008CF1D5 /* CandleLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DCCD7728D5878F008CF1D5 /* Build configuration list for PBXNativeTarget "CandleLight" */;
+			buildPhases = (
+				05DCCD2328D5878E008CF1D5 /* Sources */,
+				05DCCD2428D5878E008CF1D5 /* Frameworks */,
+				05DCCD2528D5878E008CF1D5 /* Resources */,
+				05DCCD7628D5878F008CF1D5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05DCCD5028D5878F008CF1D5 /* PBXTargetDependency */,
+			);
+			name = CandleLight;
+			productName = CandleLight;
+			productReference = 05DCCD2728D5878E008CF1D5 /* CandleLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05DCCD3628D5878F008CF1D5 /* CandleLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DCCD7A28D5878F008CF1D5 /* Build configuration list for PBXNativeTarget "CandleLightTests" */;
+			buildPhases = (
+				05DCCD3328D5878F008CF1D5 /* Sources */,
+				05DCCD3428D5878F008CF1D5 /* Frameworks */,
+				05DCCD3528D5878F008CF1D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05DCCD3928D5878F008CF1D5 /* PBXTargetDependency */,
+			);
+			name = CandleLightTests;
+			productName = CandleLightTests;
+			productReference = 05DCCD3728D5878F008CF1D5 /* CandleLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05DCCD4028D5878F008CF1D5 /* CandleLightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DCCD7D28D5878F008CF1D5 /* Build configuration list for PBXNativeTarget "CandleLightUITests" */;
+			buildPhases = (
+				05DCCD3D28D5878F008CF1D5 /* Sources */,
+				05DCCD3E28D5878F008CF1D5 /* Frameworks */,
+				05DCCD3F28D5878F008CF1D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05DCCD4328D5878F008CF1D5 /* PBXTargetDependency */,
+			);
+			name = CandleLightUITests;
+			productName = CandleLightUITests;
+			productReference = 05DCCD4128D5878F008CF1D5 /* CandleLightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		05DCCD4C28D5878F008CF1D5 /* CandleLight Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DCCD7328D5878F008CF1D5 /* Build configuration list for PBXNativeTarget "CandleLight Watch App" */;
+			buildPhases = (
+				05DCCD4928D5878F008CF1D5 /* Sources */,
+				05DCCD4A28D5878F008CF1D5 /* Frameworks */,
+				05DCCD4B28D5878F008CF1D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CandleLight Watch App";
+			productName = "CandleLight Watch App";
+			productReference = 05DCCD4D28D5878F008CF1D5 /* CandleLight Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05DCCD5E28D5878F008CF1D5 /* CandleLight Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DCCD8028D5878F008CF1D5 /* Build configuration list for PBXNativeTarget "CandleLight Watch AppTests" */;
+			buildPhases = (
+				05DCCD5B28D5878F008CF1D5 /* Sources */,
+				05DCCD5C28D5878F008CF1D5 /* Frameworks */,
+				05DCCD5D28D5878F008CF1D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05DCCD6128D5878F008CF1D5 /* PBXTargetDependency */,
+			);
+			name = "CandleLight Watch AppTests";
+			productName = "CandleLight Watch AppTests";
+			productReference = 05DCCD5F28D5878F008CF1D5 /* CandleLight Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05DCCD6828D5878F008CF1D5 /* CandleLight Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DCCD8328D5878F008CF1D5 /* Build configuration list for PBXNativeTarget "CandleLight Watch AppUITests" */;
+			buildPhases = (
+				05DCCD6528D5878F008CF1D5 /* Sources */,
+				05DCCD6628D5878F008CF1D5 /* Frameworks */,
+				05DCCD6728D5878F008CF1D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05DCCD6B28D5878F008CF1D5 /* PBXTargetDependency */,
+			);
+			name = "CandleLight Watch AppUITests";
+			productName = "CandleLight Watch AppUITests";
+			productReference = 05DCCD6928D5878F008CF1D5 /* CandleLight Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05DCCD1F28D5878E008CF1D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					05DCCD2628D5878E008CF1D5 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					05DCCD3628D5878F008CF1D5 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 05DCCD2628D5878E008CF1D5;
+					};
+					05DCCD4028D5878F008CF1D5 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 05DCCD2628D5878E008CF1D5;
+					};
+					05DCCD4C28D5878F008CF1D5 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					05DCCD5E28D5878F008CF1D5 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 05DCCD4C28D5878F008CF1D5;
+					};
+					05DCCD6828D5878F008CF1D5 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 05DCCD4C28D5878F008CF1D5;
+					};
+				};
+			};
+			buildConfigurationList = 05DCCD2228D5878E008CF1D5 /* Build configuration list for PBXProject "CandleLight" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05DCCD1E28D5878E008CF1D5;
+			productRefGroup = 05DCCD2828D5878E008CF1D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05DCCD2628D5878E008CF1D5 /* CandleLight */,
+				05DCCD3628D5878F008CF1D5 /* CandleLightTests */,
+				05DCCD4028D5878F008CF1D5 /* CandleLightUITests */,
+				05DCCD4C28D5878F008CF1D5 /* CandleLight Watch App */,
+				05DCCD5E28D5878F008CF1D5 /* CandleLight Watch AppTests */,
+				05DCCD6828D5878F008CF1D5 /* CandleLight Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05DCCD2528D5878E008CF1D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DCCD3228D5878E008CF1D5 /* Preview Assets.xcassets in Resources */,
+				05DCCD2F28D5878E008CF1D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DCCD3528D5878F008CF1D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DCCD3F28D5878F008CF1D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DCCD4B28D5878F008CF1D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DCCD5A28D5878F008CF1D5 /* Preview Assets.xcassets in Resources */,
+				05DCCD5728D5878F008CF1D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DCCD5D28D5878F008CF1D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DCCD6728D5878F008CF1D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05DCCD2328D5878E008CF1D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DCCD2D28D5878E008CF1D5 /* ContentView.swift in Sources */,
+				05DCCD2B28D5878E008CF1D5 /* CandleLightApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DCCD3328D5878F008CF1D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DCCD3C28D5878F008CF1D5 /* CandleLightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DCCD3D28D5878F008CF1D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DCCD4828D5878F008CF1D5 /* CandleLightUITestsLaunchTests.swift in Sources */,
+				05DCCD4628D5878F008CF1D5 /* CandleLightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DCCD4928D5878F008CF1D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DCCD5528D5878F008CF1D5 /* ContentView.swift in Sources */,
+				05DCCD5328D5878F008CF1D5 /* CandleLightApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DCCD5B28D5878F008CF1D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DCCD6428D5878F008CF1D5 /* CandleLight_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DCCD6528D5878F008CF1D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DCCD7028D5878F008CF1D5 /* CandleLight_Watch_AppUITestsLaunchTests.swift in Sources */,
+				05DCCD6E28D5878F008CF1D5 /* CandleLight_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05DCCD3928D5878F008CF1D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05DCCD2628D5878E008CF1D5 /* CandleLight */;
+			targetProxy = 05DCCD3828D5878F008CF1D5 /* PBXContainerItemProxy */;
+		};
+		05DCCD4328D5878F008CF1D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05DCCD2628D5878E008CF1D5 /* CandleLight */;
+			targetProxy = 05DCCD4228D5878F008CF1D5 /* PBXContainerItemProxy */;
+		};
+		05DCCD5028D5878F008CF1D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05DCCD4C28D5878F008CF1D5 /* CandleLight Watch App */;
+			targetProxy = 05DCCD4F28D5878F008CF1D5 /* PBXContainerItemProxy */;
+		};
+		05DCCD6128D5878F008CF1D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05DCCD4C28D5878F008CF1D5 /* CandleLight Watch App */;
+			targetProxy = 05DCCD6028D5878F008CF1D5 /* PBXContainerItemProxy */;
+		};
+		05DCCD6B28D5878F008CF1D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05DCCD4C28D5878F008CF1D5 /* CandleLight Watch App */;
+			targetProxy = 05DCCD6A28D5878F008CF1D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DCCD7128D5878F008CF1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		05DCCD7228D5878F008CF1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		05DCCD7428D5878F008CF1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CandleLight Watch App/CandleLight Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CandleLight Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 43HW7KHMGM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CandleLight-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CandleLight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = aaronnadianicole.CandleLight;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aaronnadianicole.CandleLight.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		05DCCD7528D5878F008CF1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CandleLight Watch App/CandleLight Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CandleLight Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 43HW7KHMGM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CandleLight-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CandleLight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = aaronnadianicole.CandleLight;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aaronnadianicole.CandleLight.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		05DCCD7828D5878F008CF1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CandleLight/CandleLight.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CandleLight/Preview Content\"";
+				DEVELOPMENT_TEAM = 43HW7KHMGM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CandleLight/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CandleLight;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aaronnadianicole.CandleLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05DCCD7928D5878F008CF1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CandleLight/CandleLight.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CandleLight/Preview Content\"";
+				DEVELOPMENT_TEAM = 43HW7KHMGM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CandleLight/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CandleLight;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aaronnadianicole.CandleLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05DCCD7B28D5878F008CF1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idk.CandleLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CandleLight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CandleLight";
+			};
+			name = Debug;
+		};
+		05DCCD7C28D5878F008CF1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idk.CandleLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CandleLight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CandleLight";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05DCCD7E28D5878F008CF1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idk.CandleLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CandleLight;
+			};
+			name = Debug;
+		};
+		05DCCD7F28D5878F008CF1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idk.CandleLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CandleLight;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05DCCD8128D5878F008CF1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "idk.CandleLight-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CandleLight Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CandleLight Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		05DCCD8228D5878F008CF1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "idk.CandleLight-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CandleLight Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CandleLight Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		05DCCD8428D5878F008CF1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "idk.CandleLight-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CandleLight Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		05DCCD8528D5878F008CF1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "idk.CandleLight-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CandleLight Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05DCCD2228D5878E008CF1D5 /* Build configuration list for PBXProject "CandleLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DCCD7128D5878F008CF1D5 /* Debug */,
+				05DCCD7228D5878F008CF1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DCCD7328D5878F008CF1D5 /* Build configuration list for PBXNativeTarget "CandleLight Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DCCD7428D5878F008CF1D5 /* Debug */,
+				05DCCD7528D5878F008CF1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DCCD7728D5878F008CF1D5 /* Build configuration list for PBXNativeTarget "CandleLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DCCD7828D5878F008CF1D5 /* Debug */,
+				05DCCD7928D5878F008CF1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DCCD7A28D5878F008CF1D5 /* Build configuration list for PBXNativeTarget "CandleLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DCCD7B28D5878F008CF1D5 /* Debug */,
+				05DCCD7C28D5878F008CF1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DCCD7D28D5878F008CF1D5 /* Build configuration list for PBXNativeTarget "CandleLightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DCCD7E28D5878F008CF1D5 /* Debug */,
+				05DCCD7F28D5878F008CF1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DCCD8028D5878F008CF1D5 /* Build configuration list for PBXNativeTarget "CandleLight Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DCCD8128D5878F008CF1D5 /* Debug */,
+				05DCCD8228D5878F008CF1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DCCD8328D5878F008CF1D5 /* Build configuration list for PBXNativeTarget "CandleLight Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DCCD8428D5878F008CF1D5 /* Debug */,
+				05DCCD8528D5878F008CF1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05DCCD1F28D5878E008CF1D5 /* Project object */;
+}
